@@ -62,5 +62,5 @@ cvpad_use(mspacman)                        # USB game pads: the port is a host
 pico_enable_stdio_usb(mspacman 0)
 pico_enable_stdio_uart(mspacman 0)
 target_compile_definitions(mspacman PRIVATE PM_MS=1)
-cvcart_plugin(mspacman ID parrotcart.mspacman NAME "Ms. Pac-Man" VERSION 0.1.1 BY "Parrot Cart"
+cvcart_plugin(mspacman ID parrotcart.mspacman NAME "Ms. Pac-Man" VERSION 0.1.2 BY "Parrot Cart"
               HOME /MSPACMAN USES usb-host ICON src/pacman/mspacman_icon.txt FILE MSPACMAN.CVP README CART-README.md)
